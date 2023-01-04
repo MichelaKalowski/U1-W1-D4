@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2? family= Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200; 1.300;1.400;1.500;1.600;1.700;1.800;1.900 & display=scambia');
+
+/* IMPOSTAZIONI GENERALI */
+body {
+    background-image: url(../img/sfondo.png);
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* HEADER */
+header {
+    background-color: #026c88;
+    padding: 30px;
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    font: size 14pt;
+    text-transform: uppercase;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.logo {
+    width: 80%;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    line-height: 150%;
+    text-transform: uppercase;
+}
+
+nav a:visited {
+    color: white;
+}
+
+main {
+    background-color: white;
+    padding: 20px;
+}
+
+h2 {
+    font-size: 22px;
+    line-height: 120%;
+    margin-bottom: 20px;
+}
+
+.article metadata {
+    color: gray;
+
+}
+
+p span {
+    color: fuchsia;
+}
+
+ul,
+ol {
+    margin: 30px;
+}
+
+li {
+    line-height: 110%;
+}
+
+li span {
+    background-color: lightslategrey;
+    border: 1px;
+    color: grey;
+    border-radius: 5px;
+}
+
+main p {
+    margin-top: 20px;
+}
+
+/* ELEMENTI NEL MAIN - ARTICLE */
+
+/* TABELLE */
+table {
+    width: 100%;
+}
+
+caption {
+    font-weight: bold;
+    font-style: italic;
+}
+
+thead {
+    background-color: blue;
+}
+
+tbody tr:nth-last-of-type(even) {
+    background-color: lightgrey;
+}
+
+table * {
+    padding: 10px;
+}
+
+/* FORM */
+
+/* ELEMENTI NELL' ASIDE */
+
+/* FOOTER */
